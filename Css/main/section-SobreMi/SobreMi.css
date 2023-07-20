@@ -1,0 +1,28 @@
+#SobreMi {
+
+    text-align: center;
+    color: rgb(221, 192, 192);
+    padding: 4rem 1rem;
+    
+    box-shadow: 0px 6px 82px 33px rgba(124, 104, 104, 0.1),0px 10px 15px -3px rgba(228, 222, 222, 0);
+}
+
+#SobreMi .SobreMi--titulo{
+    font-size: 3rem;
+    line-height: 3.4rem;
+    margin-bottom: 2rem;
+}
+
+.SobreMi--titulo--Texto{
+    width: 80%;
+    margin: auto;
+    line-height: 2.2rem;
+    font-size: 1.2rem;
+    font-family: "Lora";
+}
+
+.SobreMi--titulo--Texto strong {
+    font-weight: bold;
+}
+
+/*------------------*/

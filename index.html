@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/reset.css">
+    <link rel="stylesheet" href="Css/header/header.css">
+    <link rel="stylesheet" href="Css/header/header__nav.css">
+    <link rel="stylesheet" href="Css/main/section-presentacion/presentacion.css">
+    <link rel="stylesheet" href="Css/main/section-SobreMi/SobreMi.css">
+    <link rel="stylesheet" href="Css/main/section-Skills/Skills__Contendor--Skill.css">
+    <link rel="stylesheet" href="Css/main/section-Skills/Skills__Contendor.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Orbit&family=Oswald:wght@400;600&family=Roboto+Mono:wght@300;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ad6c75e2e5.js" crossorigin="anonymous"></script>
+    <title>Portafolio - Miguel Bolaños</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title"><i class="fa-solid fa-envelope"></i>Miguel Angel Bolaños Mendez</h1>
+        <nav class="header__nav">
+            <ul class="header__nav--lista" >
+                <li class="header__nav--item"><a href="#SobreMi">¡ Sobre Mi !</a></li>
+                <li class="header__nav--item"><a href="#Skills">Skills</a></li>
+                <li class="header__nav--item"><a href="">Hobbies</a></li>
+                <li class="header__nav--item"><a href="">Formación</a></li>
+                <li class="header__nav--item"><a href="">Proyectos</a></li>
+                <li class="header__nav--item"><a href="">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="presentacion">
+            <div class="presentacion__info">
+                <h1 class="presentacion__info--titulo"><strong>Hola,</strong> Mi nombre es <strong>Miguel Bolaños</strong> y soy <strong>Tecnólogo en Informática</strong></h1>
+                <p class="presentacion__info--desc">¡ Dispuesto a nuevos retos y aprender sobre la marcha ! </p>
+            </div>
+            <div class="presentacion__img">
+                <img class="presentacion__img--circulo" src="../imagenes/prueba.jpg" alt="" >
+                <div class="presentacion__img--redes">
+                    <ul class="presentacion__img--lista">
+                        <li><a href=""><i class="fa-brands fa-github"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href=""><i class="fa-solid fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="SobreMi" >
+            <h1 class="SobreMi--titulo">INFORMACION TECNICA</h1>
+            <p class="SobreMi--titulo--Texto">soy tecnólogo en informática egresado de la universidad <strong>MINUTO DE DIOS</strong>, me considero un desarrollador junior manejando diversas tecnologías en el desarrollo web como html5, css, JS básico,json y control de versiones con Github; tambien manejo hojas de estilo como materilize y Bootstrap. tambien me considero técnico ti manejando bases de datos con <strong>Oracle</strong> y aplicativos como <strong>Oracle Application Express.</strong></p>
+            <p class="SobreMi--titulo--Texto">¡ Con ganas de seguir aprendiendo!</p>
+        </section>
+
+        <section id="Skills" >
+            <h1 class="Skills__Titulo">SKILLS</h1>
+            <div class="Skills__Contendor" data-Skills>
+                
+            </div>
+        </section>
+
+
+        <section id="Hobbies" >
+            <h1 class="Hobbies--titulo">Hobbies</h1>
+            <div class="Hobbies__Contendor" data-Skills>
+                
+            </div>
+        </section>
+    </main>
+    <script type="module" src="servicios/skills-servicios.js"></script>
+    <script type="module" src="controllers/Skills-controllers.js"></script>
+</body>
+</html>

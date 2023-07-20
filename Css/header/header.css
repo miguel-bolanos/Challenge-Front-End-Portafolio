@@ -1,0 +1,47 @@
+main {
+background: radial-gradient(at center, #560C0D, #210607);
+}
+.header {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 6rem;
+    background: linear-gradient(-45deg,  rgb(23, 5, 4), rgb(117, 31, 18));
+	background-size: 200% 400%;
+    border-bottom: 1px solid rgb(77, 10, 10);
+    
+}
+
+.header__title {
+    color: white;
+    font-size: 1.3rem;
+}
+.header__title i{
+    color: white;
+    margin-right: 1rem;
+    font-size: 1.3rem;
+}
+
+@media  only screen and (max-width:1024px ) and (min-width:666px ) {
+    
+    .header{
+
+        flex-direction: column;
+    }
+    
+
+}
+
+@media only screen and (max-width: 665px) {
+    
+    .header{
+        height: 22rem;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .header__title {
+        padding: 1.2rem;
+    }
+}

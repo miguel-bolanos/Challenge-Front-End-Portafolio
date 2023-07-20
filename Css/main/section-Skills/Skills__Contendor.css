@@ -1,0 +1,34 @@
+#Skills {
+    
+    text-align: center;
+    color: rgb(236, 221, 221);
+    padding: 2rem 1rem;
+}
+
+.Skills__Contendor {
+    display: flex;
+    padding: 2rem 4rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.Skills__Titulo{
+    margin-top : 2rem;
+    font-size: 3rem;
+    font-family: "Lora";
+    color: rgb(221, 192, 192);
+}
+
+@media only screen and (max-width: 655px) {
+    .Skills__Contendor{
+        padding: 0;
+    }
+   
+}
+@media only screen and (max-width: 527px) {
+    .Skills__Contendor--Skill {
+        margin: 1rem 1rem;
+   
+    }
+}

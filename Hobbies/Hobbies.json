@@ -1,0 +1,48 @@
+{  
+"Hobbies": [
+            
+            {
+                "Nombre":"HTML",
+                "clase":"Skills__Contendor--icono fa-brands fa-html5",
+                "id":1
+            },
+            {
+                "Nombre":"CSS",
+                "clase":"Skills__Contendor--icono fa-brands fa-css3-alt",
+                "id":2
+            },
+            {
+                "Nombre":"JAVASCRIPT",
+                "clase":"Skills__Contendor--icono fa-brands fa-square-js",
+                "id":3
+                
+            },
+            {
+                "Nombre":"GITHUB",
+                "clase":"Skills__Contendor--icono fa-brands fa-square-github",
+                "id":4
+                
+            },
+            {
+                "Nombre":"ORACLE DB",
+                "clase":"Skills__Contendor--icono fa-solid fa-database",
+                "id":6
+            },
+            {
+                "Nombre":"CENTOS",
+                "clase":"Skills__Contendor--icono fa-brands fa-centos ",
+                "id":7
+            },
+            {
+                "Nombre":"BOOTSTRAP",
+                "clase":"Skills__Contendor--icono fa-brands fa-bootstrap ",
+                "id":8
+            },
+            {
+                "Nombre":"GOOGLE CLOUD",
+                "clase":"Skills__Contendor--icono fa-brands fa-google ",
+                "id":9
+            }
+          ]
+
+}
