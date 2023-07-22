@@ -1,6 +1,6 @@
 import { Servicios } from "../servicios/skills-servicios.js";
 
-const nuevaSkills = (Nombre,clase,id, ) =>{
+const nuevoHobbie = (Nombre,clase,id, ) =>{
     const card = document.createElement("div")
     const contenido = `
         <h1>${Nombre}</h1>
@@ -15,9 +15,9 @@ return card
 
 const Skills = document.querySelector("[data-Hobbies]")
 
-Servicios.listaSkisll().then(data=>{
+Servicios.listaHobbies().then(data=>{
     data.forEach(({Nombre,clase,id,}) => {
-        const agregar = nuevaSkills(Nombre,clase,id,);
+        const agregar = nuevoHobbie(Nombre,clase,id,);
         Skills.appendChild(agregar)
         
     });
