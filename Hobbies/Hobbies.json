@@ -1,5 +1,4 @@
-{  
-"Hobbies": [
+[
             
             {
                 "Nombre":"BALONCESTO",
@@ -28,6 +27,5 @@
                 "clase":"Hobbies__Contendor--icono fa-solid fa-music",
                 "id":6
             }
-          ]
+]
 
-}
