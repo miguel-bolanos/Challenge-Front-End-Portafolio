@@ -6,7 +6,7 @@ fetch("https://miguel-bolanos.github.io/Challenge-Front-End-Portafolio/Skills/Sk
     
 const listaHobbies = () =>
 fetch("https://miguel-bolanos.github.io/Challenge-Front-End-Portafolio/Hobbies/Hobbies.json")
-.then(respuesta=>console.log("conexion ok"))
+.then(respuesta=>respuesta.json())
 .catch(error => console.log("error " + error))
 
 export const Servicios  = {
