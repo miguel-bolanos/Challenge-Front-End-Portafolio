@@ -1,0 +1,26 @@
+.Hobbies__Contendor--Hobbies{
+    margin: 1rem 4rem;
+    line-height: 2rem;
+    padding-bottom: 0.5rem;
+}
+.Hobbies__Contendor--icono{
+    font-size: 8rem;
+    color: rgba(230, 168, 168, 0.616);
+    border-radius: 100px;
+    
+}
+.Hobbies__Contendor--icono:hover{
+    transform: scale(1.2);
+    transition: 0.5s ease-out;
+}
+
+.Hobbies__Contendor--Hobbies h1 {
+    font-size: 1.4rem;
+    color: rgb(221, 192, 192);
+}
+
+.Hobbies__Contendor--Hobbies:hover {
+    border-bottom: 2px solid rgb(197, 105, 105);
+    transition: 1s ease-out;
+}
+

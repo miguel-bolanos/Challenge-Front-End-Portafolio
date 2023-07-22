@@ -1,0 +1,20 @@
+#Hobbies {
+    padding: 2rem 3rem;
+    text-align: center;
+    box-shadow: 0px 6px 82px 33px rgba(124, 104, 104, 0.1),0px 10px 15px -3px rgba(228, 222, 222, 0);
+}
+
+.Hobbies__titulo{
+    margin-top : 2rem;
+    font-size: 3rem;
+    font-family: "Lora";
+    color: rgb(221, 192, 192);
+    padding-bottom: 2rem ;
+}
+
+.Hobbies__Contendor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
